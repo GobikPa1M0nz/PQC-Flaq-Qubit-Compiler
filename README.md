@@ -9,11 +9,14 @@ But in this attempt, inspired by the Flaq Qubit method, we would like to tackle 
 
 ### Goals:
 A. Use Jabalizer (https://github.com/QSI-BAQS/Jabalizer.jl)to export ICM circuits into Stim (https://github.com/quantumlib/Stim). 
+
 B. Implement a random method to add a specified number of ancillae/flags and entangle them (randomly) to the ICM circuit. Evaluate the fault-tolerance of the resulting circuit by showing a relation between the value of the flags and the correctness of the outputs.
+
 C.Implement a heuristic which is converging faster than the solution in B. What is the optimum (lowest you can achieve) number of flags necessary to detect the maximum number of errors?
 
 ### Criteria for passing:
 Pass: A and B
+
 Full Points: C
 
 
