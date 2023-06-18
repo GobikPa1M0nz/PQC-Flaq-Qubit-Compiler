@@ -9,7 +9,7 @@ json_string = f.read()
 
 f.close()
 
-num_qubit = 10
+num_qubit = 4
 anc_num = 0
 
 new_circuit = cirq.read_json(json_text=json_string)
